@@ -7,7 +7,7 @@
 
 
 body{
-    background-image: url("image/Ev-3.jpg");
+    background-image: url("/image/Ev-3.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;                  /* for viewing the maximum height in the body */
@@ -21,7 +21,7 @@ body{
     width: 900px;
     height: 500px;
     box-shadow: 0 0 10px rgb(195, 243, 195);
-    background-image: url("image/Ev-3.jpg");
+    background-image: url("/image/Ev-3.jpg");
     background-position: center;
     background-size: cover;
     opacity: 0.9;
