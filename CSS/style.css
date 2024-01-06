@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-image: url("/image/Ev-3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;                  /* for viewing the maximum height in the body */
+    display: flex;                  /* for making the content more flexible */
+    align-items: center;            /* for placing all the items of the body in center*/
+    justify-content: center;        /* for placing all the content in center*/
+    backdrop-filter: blur(3px);             /* for making the bg image blurry */
+}
+
+.BG{
+    width: 900px;
+    height: 500px;
+    box-shadow: 0 0 10px rgb(195, 243, 195);
+    background-image: url("/image/Ev-3.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+
+}
+
+nav{
+    display: flex;
+    padding: 5px 8px;
+}
+
+.logo{
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(200, 245, 230);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li :hover{
+    border-bottom: 2px solid whitesmoke;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(73, 255, 216);
+    font-weight: bold;
+}
+
+img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: -7px;
+    margin-right: -3px;
+    transition: 0s ease;
+}
+
+img:hover{
+    border: 2px solid whitesmoke;
+}
+
+h3{
+    color: aliceblue;
+    margin: 80px 80px -20px;
+    font-style: italic;
+    font-weight: 200px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+h1{
+    color: whitesmoke;
+    margin:-1rem 3rem 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+    letter-spacing: 35px;
+    padding-left: 2rem;
+    opacity: 0.7;
+
+    background-image: linear-gradient(45deg, whitesmoke, rgb(88, 226, 88), whitesmoke
+    );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons i{
+       color: white;
+       margin-top: 8px;
+       margin-right: 50px ;
+}
+
+.icons ul{
+    flex: 1;
+    text-align:right;
+}
+
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.icons ul li i{
+      text-decoration: none;
+      font-size: 20px;
+      cursor: pointer;
+      transition: 0s all;
+      
+}
+ .icons ul li i:hover{
+    color: aquamarine;
+ }
